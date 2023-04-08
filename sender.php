@@ -8,7 +8,7 @@
 	$to = "shavirina.1@gmail.com"; 
 	$date = date ("d.m.Y"); 
 	$time = date ("h:i");
-	$from = $email;
+	$from = "savirinakarina0@gmail.com";
 	$subject = "Заявка c сайта";
 
 	
@@ -18,7 +18,7 @@
     Телефон: $phone /n
     Почта: $email /n
     Текст: $text"; 	
-	mail($to, $subject, $msg, "From: $to");
+	mail($to, $subject, $msg, "From: $from ");
 
 ?>
 
